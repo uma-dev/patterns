@@ -26,3 +26,40 @@ Example:
 
 ### g) Class label of example pattern  
 **0 → Attack traffic**
+
+
+# Multi-class Classification Dataset
+
+### a) Dataset name  
+**Tech Students - profile prediction**
+
+
+### b) Number of patterns (entries)
+157,800
+
+### c) Patterns per class  
+- **Normal:** 6,024  
+- **Attack:** 32,025  
+
+### d) Attributes and types  
+- 15 attributes (excluding ID/Name)  
+- **Numeric (hours, number of courses, average scores)**  
+- **Categorical (profile label)**  
+
+### e) Class attribute position  
+**Last column** (`PROFILE`)
+
+### f) Example pattern (3rd attribute explained)  
+Example:
+
+| NAME   | USER_ID | HOURS_DATASCIENCE | HOURS_BACKEND | HOURS_FRONTEND | NUM_COURSES_BEGINNER_DATASCIENCE | NUM_COURSES_BEGINNER_BACKEND | NUM_COURSES_BEGINNER_FRONTEND | NUM_COURSES_ADVANCED_DATASCIENCE | NUM_COURSES_ADVANCED_BACKEND | NUM_COURSES_ADVANCED_FRONTEND | AVG_SCORE_DATASCIENCE | AVG_SCORE_BACKEND | AVG_SCORE_FRONTEND | PROFILE       |
+|--------|---------|-------------------|---------------|----------------|----------------------------------|------------------------------|-------------------------------|---------------------------------|-----------------------------|-------------------------------|----------------------|------------------|-------------------|---------------|
+| John   | 123     | 40                | 10            | 5              | 3                                | 1                            | 0                             | 1                               | 0                           | 0                             | 85                   | 70               | 65                | Data Science  |
+| Maria  | 124     | 5                 | 35            | 10             | 0                                | 4                            | 1                             | 0                               | 2                           | 0                             | 60                   | 88               | 72                | Backend       |
+| Alex   | 125     | 8                 | 12            | 45             | 1                                | 1                            | 3                             | 0                               | 0                           | 2                             | 67                   | 74               | 90                | Frontend      |
+
+
+- 3rd attribute = **HOURS_DATASCIENCE** → number of hours studied in Data Science.  
+
+### g) Class label of example pattern  
+Example profile: **Data Science**  
