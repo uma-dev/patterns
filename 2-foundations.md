@@ -35,11 +35,10 @@ Example:
 
 
 ### b) Number of patterns (entries)
-157,800
+Not specified
 
 ### c) Patterns per class  
-- **Normal:** 6,024  
-- **Attack:** 32,025  
+Target: **PROFILE** → multiple classes (e.g., *Data Science, Backend, Frontend*).  
 
 ### d) Attributes and types  
 - 15 attributes (excluding ID/Name)  
