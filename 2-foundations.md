@@ -1,4 +1,4 @@
-# 2 – Binary Classification Dataset
+# Binary Classification Dataset
 
 ### a) Dataset name  
 **Edge-IIoTset**  
