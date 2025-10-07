@@ -1,0 +1,30 @@
+[project]
+name = "4-knn"
+version = "0.1.0"
+description = "KNN from scratch with CV & metrics"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy"]
+
+[project.scripts]
+knn = "knn.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# Tell Hatchling where the package lives (src-layout)
+[tool.hatch.build.targets.wheel]
+packages = ["src/knn"]
+
+# (Optional) include files in sdist
+[tool.hatch.build.targets.sdist]
+include = ["src/knn", "README.md", "LICENSE", "scripts", "tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
