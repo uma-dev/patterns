@@ -1,0 +1,20 @@
+[project]
+name = "distance-functions"
+version = "0.1.0"
+description = "Simple distance functions between two vectors (cosine, chebyshev, hamming)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26"]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/distances"]
