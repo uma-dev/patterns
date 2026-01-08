@@ -15,6 +15,8 @@ Binary decision tree implemented from scratch (CART-style splits `feature <= thr
 
 ## Results
 
+<img width="945" height="410" alt="Screenshot 2026-01-08 at 2 07 47 p m" src="https://github.com/user-attachments/assets/77f8c05b-04cb-451b-b0c6-99a64055b5d3" />
+
 Run:
 
 ```bash
