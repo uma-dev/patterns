@@ -44,19 +44,8 @@ Computed using **one-vs-rest (OVR)** with **macro-averaging**:
 
 ### Stratified 10-Fold Cross-Validation
 
-| Dataset       |  Balanced Accuracy |        Sensitivity |        Specificity |
-| ------------- | -----------------: | -----------------: | -----------------: |
-| Iris          | _(program output)_ | _(program output)_ | _(program output)_ |
-| Wine          | _(program output)_ | _(program output)_ | _(program output)_ |
-| Breast Cancer | _(program output)_ | _(program output)_ | _(program output)_ |
+ <img width="887" height="665" alt="Screenshot 2026-01-08 at 1 38 42 p m" src="https://github.com/user-attachments/assets/9ee7fb18-5d59-4255-ab27-4afee7392970" />
 
-### Leave-One-Out (LOO)
-
-| Dataset       |  Balanced Accuracy |        Sensitivity |        Specificity |
-| ------------- | -----------------: | -----------------: | -----------------: |
-| Iris          | _(program output)_ | _(program output)_ | _(program output)_ |
-| Wine          | _(program output)_ | _(program output)_ | _(program output)_ |
-| Breast Cancer | _(program output)_ | _(program output)_ | _(program output)_ |
 
 ---
 
