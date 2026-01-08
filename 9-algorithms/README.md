@@ -13,7 +13,6 @@ Financial / credit datasets loaded from **OpenML**:
 - Credit Approval
 - Default of Credit Card Clients
 - Bank Marketing
-- HELOC
 
 All problems are treated as **binary classification**.
 
@@ -25,7 +24,6 @@ All problems are treated as **binary classification**.
 - k-Nearest Neighbors (k=5)
 - Decision Tree
 - Gaussian Naïve Bayes
-- Support Vector Machine (RBF)
 
 ---
 

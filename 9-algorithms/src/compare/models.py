@@ -18,5 +18,4 @@ def get_models() -> Dict[str, object]:
         "KNN(k=5)": KNeighborsClassifier(n_neighbors=5),
         "DecisionTree": DecisionTreeClassifier(random_state=42),
         "GaussianNB": GaussianNB(),
-        "SVM(RBF)": SVC(),
     }

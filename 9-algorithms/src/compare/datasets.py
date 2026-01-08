@@ -22,7 +22,6 @@ DATASETS: List[DatasetSpec] = [
     DatasetSpec("Default Credit Card Clients",
                 "default-of-credit-card-clients"),
     DatasetSpec("Bank Marketing", "bank-marketing"),
-    DatasetSpec("HELOC", "heloc"),
 ]
 
 
