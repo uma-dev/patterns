@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/algorithms_classification.egg-info/PKG-INFO
+src/algorithms_classification.egg-info/SOURCES.txt
+src/algorithms_classification.egg-info/dependency_links.txt
+src/algorithms_classification.egg-info/requires.txt
+src/algorithms_classification.egg-info/top_level.txt
+src/compare/__init__.py
+src/compare/datasets.py
+src/compare/experiment.py
+src/compare/metrics.py
+src/compare/models.py
+src/compare/preprocess.py
+src/compare/validation.py

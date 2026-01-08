@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: algorithms-classification
+Version: 0.1.0
+Summary: Classification comparison with sklearn + OpenML
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.0
+Requires-Dist: scikit-learn>=1.4
