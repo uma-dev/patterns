@@ -40,3 +40,4 @@ PYTHONPATH=src uv run python scripts/run.py
 ```
 
 ## Results
+<img width="857" height="750" alt="Screenshot 2026-01-09 at 7 53 16 a m" src="https://github.com/user-attachments/assets/76a2a4d7-c3ef-496c-a938-1c1fe532d8e4" />
