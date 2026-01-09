@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/gd/__init__.py
+src/gd/functions.py
+src/gd/optimizer.py
+src/gd/types.py
+src/tarea10_gradient_descent.egg-info/PKG-INFO
+src/tarea10_gradient_descent.egg-info/SOURCES.txt
+src/tarea10_gradient_descent.egg-info/dependency_links.txt
+src/tarea10_gradient_descent.egg-info/requires.txt
+src/tarea10_gradient_descent.egg-info/top_level.txt

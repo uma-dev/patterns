@@ -1,0 +1,9 @@
+[project]
+name = "tarea10-gradient-descent"
+version = "0.1.0"
+description = "Task 10 - Gradient descent on a convex function of two variables"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26"]
+
+[tool.uv]
+package = true 

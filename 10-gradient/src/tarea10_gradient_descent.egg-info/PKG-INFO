@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: tarea10-gradient-descent
+Version: 0.1.0
+Summary: Task 10 - Gradient descent on a convex function of two variables
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.26
